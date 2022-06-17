@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div#cabecalho {
+    background-color: black;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: dashed 3px white;
+}
+
+div#conteudo {
+    background-color: white;
+    height: calc(100vh - 206px);
+}
+
+div#rodape {
+    background-color: #2eade4;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    border-top: 3px dashed black;
+}
+
+.botao {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao img {
+    height: 40px;
+    width: 40px;
+}
+img#logo {
+    height: 47px;
+    width: auto;
+}
+.botao span {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+img#jogos {
+    width: 40px;
+    height: 40px;
+}
+#caixapreta {
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodape h2 {
+    margin-left: 3%;
+    font-weight: 900;
+}
+
+.programas img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px black solid;
+    padding: 2px;
+}
+
+.programas {
+    padding: 20px 5%;
+    overflow: scroll;
+    height: 100%;
+}
